@@ -15,7 +15,7 @@
 
 <h2 class="text-3xl font-bold mb-10 text-gray-800">Create Your Account</h2>
 
-<form class="space-y-5 h-10" action="" method="post">
+<form class="space-y-5 h-10" action="includes/signup.inc.php" method="post">
 <!-- username  -->
   <div>
     <label class="block mb-1 font-bold text-gray-500">Username</label>
@@ -55,7 +55,7 @@
 <div class="flex items-center h-screen w-full">
     <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
     <span class="block w-full text-xl uppercase font-bold mb-4">Login</span>      
-      <form class="mb-4" action="/" method="post">
+      <form class="mb-4" action="includes/login.inc.php" method="post">
         <div class="mb-4 md:w-full">
           <label for="email" class="block text-xs mb-1">Username or Email</label>
           <input class="w-full border rounded p-2 outline-none focus:shadow-outline" type="email" name="email" id="email" placeholder="Username or Email">
